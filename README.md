@@ -64,25 +64,25 @@ pip install ultralytics matplotlib seaborn scikit-learn pillow tqdm pyyaml panda
 
 Train a classification model to identify moth species:
 
-    ```bash
+```bash
 # EfficientNet-B0 (lightweight, fast)
 python classification.py --model_type efficientnet --data_dir your_dataset --num_epochs 25 --batch_size 128
     
 # ResNet-50 (robust, production-ready)
 python classification.py --model_type resnet --data_dir your_dataset --num_epochs 25 --batch_size 128
-    ```
+```
 
 ### Object Detection
 
 Train a detection model to localize and classify moths:
 
-    ```bash
+```bash
 # YOLOv11 (real-time detection)
 python detect.py --model_type yolov11 --data_dir yolo_dataset --batch_size 64 --num_epochs 50
 
 # RT-DETR (high accuracy)
 python detect.py --model_type rtdetr --data_dir yolo_dataset --batch_size 32 --num_epochs 100
-    ```
+```
 
 ## Dataset Structure
 
