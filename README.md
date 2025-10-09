@@ -82,7 +82,7 @@ python detect.py --model_type yolov11 --data_dir yolo_dataset --batch_size 64 --
 
 # RT-DETR (high accuracy)
 python detect.py --model_type rtdetr --data_dir yolo_dataset --batch_size 32 --num_epochs 100
-```
+    ```
 
 ## Dataset Structure
 
